@@ -151,3 +151,18 @@ and random missingness at 25/50/75/100%, and writes:
 ```text
 outputs/missing_modality/unpairgr_missing_results.csv
 ```
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{shen2026unpairgr,
+  title   = {Unpaired Modality-Agnostic Generative Recommendation},
+  author  = {Shen, Weihao and Chen, Wei and Zhang, Fuwei and Yuan, Meng and
+             Lan, Yuqin and Liu, Guojun and Hua, Qingsong and Lin, Wei and
+             Zhuang, Fuzhen},
+  journal = {arXiv preprint arXiv:2608.02477},
+  year    = {2026}
+}
+```

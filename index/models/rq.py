@@ -7,7 +7,6 @@ from .vq import VectorQuantizer
 class ResidualVectorQuantizer(nn.Module):
     """ References:
         SoundStream: An End-to-End Neural Audio Codec
-        https://arxiv.org/pdf/2107.03312.pdf
     """
 
     def __init__(self, n_e_list, e_dim, sk_epsilons,

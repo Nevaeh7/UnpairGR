@@ -1,9 +1,7 @@
 # Unpaired Modality-Agnostic Generative Recommendation
 
-This repository contains the official source code for the paper
-**"Unpaired Modality-Agnostic Generative Recommendation."**
-
-[![arXiv](https://img.shields.io/badge/arXiv-2608.02477-b31b1b.svg)](https://arxiv.org/pdf/2608.02477)
+This repository contains the implementation of
+**Unpaired Modality-Agnostic Generative Recommendation**.
 
 ## Setup
 
@@ -16,9 +14,8 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-We follow the Amazon 2018 preprocessing convention used by
-[MQL4GRec](https://github.com/zhaijianyang/MQL4GRec). Refer to its
-`data_process` directory for the original download and feature-extraction
+We follow the Amazon 2018 preprocessing convention used by MQL4GRec. Refer to
+its `data_process` directory for the original download and feature-extraction
 scripts.
 
 1. Download the Amazon 2018 ratings, metadata, and product images.
@@ -150,19 +147,4 @@ and random missingness at 25/50/75/100%, and writes:
 
 ```text
 outputs/missing_modality/unpairgr_missing_results.csv
-```
-
-## Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@article{shen2026unpairgr,
-  title   = {Unpaired Modality-Agnostic Generative Recommendation},
-  author  = {Shen, Weihao and Chen, Wei and Zhang, Fuwei and Yuan, Meng and
-             Lan, Yuqin and Liu, Guojun and Hua, Qingsong and Lin, Wei and
-             Zhuang, Fuzhen},
-  journal = {arXiv preprint arXiv:2608.02477},
-  year    = {2026}
-}
 ```

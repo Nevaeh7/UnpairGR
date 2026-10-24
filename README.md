@@ -3,6 +3,13 @@
 This repository contains the implementation of
 **Unpaired Modality-Agnostic Generative Recommendation**.
 
+## Method Overview
+
+![Overview of the UnpairGR framework](assets/method.png)
+
+The framework combines modality-agnostic item quantization with
+modality-conditioned generative recommendation.
+
 ## Setup
 
 ```bash
